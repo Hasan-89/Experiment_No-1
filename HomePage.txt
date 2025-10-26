@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Anjuman-I-Islam's Kalsekar Technical Campus</title>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f6fa;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    nav {
+      background-color: #003366;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ffcc00;
+    }
+    section {
+      padding: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #e0e0e0;
+    }
+    ul, ol {
+      margin-left: 40px;
+    }
+    form {
+      max-width: 400px;
+      margin: auto;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 8px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Anjuman-I-Islam's Kalsekar Technical Campus</h1>
+    <p>Welcome to our college website</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#department">Department</a>
+    <a href="#facility">Facility</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h2>🏠 Home</h2>
+    <p>
+      Welcome to <b>Anjuman-I-Islam's Kalsekar Technical Campus</b>.  
+      Our college provides quality education and promotes overall student development.  
+      We aim to create a bright future for our students through innovation, discipline, and dedication.
+    </p>
+    <p>
+      Learn more about us through the links above:
+      <a href="#department">Departments</a>,
+      <a href="#facility">Facilities</a>, and
+      <a href="#contact">Contact Us</a>.
+    </p>
+  </section>
+
+  <!-- Department Section -->
+  <section id="department">
+    <h2>🏛 Departments</h2>
+    <table>
+      <tr>
+        <th>Department Name</th>
+        <th>Head of Department</th>
+        <th>Contact</th>
+      </tr>
+      <tr>
+        <td>Computer Engineering</td>
+        <td>Prof. Khan</td>
+        <td>compdept@aiktc.ac.in</td>
+      </tr>
+      <tr>
+        <td>Civil Engineering</td>
+        <td>Prof. Shaikh</td>
+        <td>civildept@aiktc.ac.in</td>
+      </tr>
+      <tr>
+        <td>Mechanical Engineering</td>
+        <td>Prof. Patel</td>
+        <td>mechdept@aiktc.ac.in</td>
+      </tr>
+      <tr>
+        <td>Electrical Engineering</td>
+        <td>Prof. Ansari</td>
+        <td>electdept@aiktc.ac.in</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Facility Section -->
+  <section id="facility">
+    <h2>🏫 Facilities</h2>
+    <ul>
+      <li>Well-equipped Laboratories</li>
+      <li>Spacious Library with Digital Access</li>
+      <li>Wi-Fi Campus</li>
+      <li>Sports and Gym Facilities</li>
+      <li>Auditorium and Seminar Halls</li>
+      <li>Hostel and Canteen</li>
+    </ul>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section id="contact">
+    <h2>📞 Contact Us</h2>
+    <form>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" placeholder="Enter your name">
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" placeholder="Enter your email">
+
+      <label for="message">Message:</label>
+      <textarea id="message" rows="4" placeholder="Write your message here"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Designed by Hasan Muchale | © 2025 Anjuman-I-Islam's Kalsekar Technical Campus</p>
+  </footer>
+
+</body>
+</html>
